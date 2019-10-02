@@ -149,7 +149,6 @@
     {
       "field_name": "url",
       "label": "Resource URL",
-      "preset": "resource_url_upload",
       "display_property": "dcat:downloadURL"
     },
     {
