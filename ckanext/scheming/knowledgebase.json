@@ -78,7 +78,7 @@
     },
     {
       "field_name": "feature_of_interest_type",
-      "label": "Geoscience or administrative feature",
+      "label": "Geological or administrative feature",
       "display_property": "sosa:FeatureOfInterest",
       "preset": "select_ajax",
       "resource_url": "https://vocabs.gsq.digital/endpoint?query=PREFIX%20skos%3A%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3Eselect*where%7B%3Fs%20a%20skos%3AConcept%3Bskos%3AprefLabel%20%3Fpl%3Bskos%3AinScheme%3Chttp%3A%2F%2Flinked.data.gov.au%2Fdef%2Fgsq-features%2FconceptScheme%3E%3BFILTER(lang(%3Fpl)%3D%22en%22).%7D&Accept=application/sparql-results+json",
@@ -87,7 +87,7 @@
     },
     {
       "field_name": "feature_of_interest",
-      "label": "Geoscience or administrative feature name",
+      "label": "Geological or administrative feature name",
       "form_placeholder": "'Basin XYZ' or 'Block CHAR2255' or 'EPM12345'",
       "display_property": "sosa:FeatureOfInterest"
     },
